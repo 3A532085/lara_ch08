@@ -1,7 +1,7 @@
+@extends('layouts.master')
+@section('title','詳細資料')
+@section('content')
 
-@extends('layout.master')
-
-<div class="container">
 
 	<div class="page-header">
 
@@ -41,8 +41,7 @@
 				數學：60
 			</p>
 		@endif
-	</div>
 
-</div>
+    </div>
 
 @stop
