@@ -7,7 +7,7 @@
 	<script type="text/javascript" src="{{ asset('js/jquery.min.js') }} "></script>
 	<script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
 </head>
-@extends('layout.master')
+@extends('layouts.master')
 @section('title','排行榜')
 @section('content')
 		<div class="page-header">

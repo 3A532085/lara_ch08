@@ -8,6 +8,6 @@ class BoardController extends Controller
 {
     public function getIndex()
     {
-        return view(board);
+        return view('board');
     }
 }
