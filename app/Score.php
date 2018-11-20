@@ -13,4 +13,14 @@ class Score extends Model
     {
      return $this->belongsTo(StudentEloquent::class);
     }
+
+    public function scopeOrderByTotal($query)
+    {
+        return $query->orderBy('scores.total','DESC');
+    }
+
+    public function scopeOrderBySubject($query)
+    {
+        return $query->orderBy('scores.chinese','DESC')->orderBy('scores.english','DESC')->orderBy('scores.math','DESC');
+    }
 }
